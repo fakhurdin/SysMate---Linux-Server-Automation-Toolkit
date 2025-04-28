@@ -1,0 +1,2 @@
+# Run backup daily at 2:00 AM
+0 2 * * * /bin/bash /path/to/sysmate-linux-automation/scripts/backup_script.sh >> /var/log/sysmate_backup.log 2>&1
