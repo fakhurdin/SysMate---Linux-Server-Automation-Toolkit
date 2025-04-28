@@ -57,8 +57,8 @@
 
 ```bash
 sysmate-linux-automation/
-├── README.md         # Documentation file
-├── scripts/          # Main automation scripts
+├── README.md         
+├── scripts/          
 │   ├── install_packages.sh   
 │   ├── system_update.sh      
 │   ├── user_management.sh    
@@ -145,28 +145,18 @@ Internet connection (for package installation)
  
 
 Contributing
-
 We welcome contributions from everyone! Here's how you can contribute:
-
 1. Fork the repository
-
 
 2. Create a new branch (git checkout -b feature/your-feature)
 
-
 3. Make your changes
-
 
 4. Commit your changes (git commit -am 'Add new feature')
 
-
 5. Push to your branch (git push origin feature/your-feature)
 
-
 6. Open a pull request with a description of your changes
-
-
-
 
 ---
 
@@ -184,21 +174,5 @@ A: You can modify the BACKUP_DIR and SOURCE_DIRS variables in the backup_script.
 Q: Can I schedule updates and backups automatically?
 A: Yes, by configuring the cronjob included in the crontab/backup_daily.cron file, you can automate daily backups.
 
-
 ---
-
-License
-
-This project is licensed under the MIT License.
-
-
----
-
-© 2025 [Your Name] — All rights reserved.
-
----
-
-This **README** provides an excellent structure for your project, explaining the purpose, features, usage instructions, and setup process. You can replace the placeholders like the name or images with the actual information as needed.
-
-Would you like to further customize it or add more sections?
 
